@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student  Registration Form</title>
+    <style>
+    h1 {
+    text-align: center;
+    color: #4a5ac3;
+    font-family: "Cabin";
+    }
+    body {
+  background-color: #ffffff;
+    }
+  div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=tel], select  {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.button {
+width: 100px;
+  height: 30px;
+  display: inline-block;
+  min-width: 50px;
+  margin:20px auto;
+  background: #4a5ac3;
+  color: #fefefe;
+  font-size: 1.0em;
+  padding: 0.5em;
+  border-radius: 4px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  transition: border-radius linear 0.05s, width linear 0.05s;
+}
+#c34a4a
+</style>
+</head>
+<body>
+<form>
+   <div> <h1>Student Registration Form</h1>
+   <label for="First Name">First Name:</label><BR><input type="text" id="First Name" name="First Name : "><br>
+    <!--Block Line--><label for="Last Name">Last Name:</label><BR><input type="text" id="Last Name" name="Last Name : "><br>
+    <label for="NIC">NIC:</label><BR><input type="text" id="NIC" name="NIC :  "><br>
+     <label for="phone">Phone number:</label><BR><input type="tel" id="phone" name="Phone Number  :  "pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"required><br>
+    <label for="email">Email:</label><BR><input type="email" id="email" pattern=".+@gmail.com" size="30" required><br>
+     <label for="Reg Date">Reg date:</label><BR><input type="date" id="Reg Date" name="trip-start" value="2023-03-01" min="2023-01-01" max="2023-12-31"><br>
+    <span><button class="button success">Submit</button></span></div>
+</form>
+</body>
+</html>
